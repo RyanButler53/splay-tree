@@ -1,5 +1,5 @@
 # splay-tree
-C++ Template of a Splay Tree without parent pointers
+C++ Template of a Splay Tree with an iterator and no parent pointers
 
 My Implementation of a splay tree with no extra overhead in each node as a header only library. 
 
