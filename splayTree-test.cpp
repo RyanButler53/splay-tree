@@ -85,12 +85,6 @@ int main(){
     {
         st.remove(x);
     }
-    assert(st.size() == 0);
-
-    st.insert(55, 155);
-    st.insert(55, 255);
-    cout << st << endl;
-    
-
+    assert(st.size() == 0);    
     return 0;
 }
