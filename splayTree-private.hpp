@@ -158,17 +158,16 @@ template <typename key_t, typename value_t>
 value_t& SplayTree<key_t, value_t>::operator[](const key_t& key){
     // key MUST be in the tree;
     vector<Node *> path;
-    const_iterator iter = searchHelper(key, root_, path);
+    const const_iterator iter = searchHelper(key, root_, path);
     auto [k, v] = *iter;
     splay(path);
     if (k != key){
         throw("Invalid Key");
-    }
-    else
-    {
+    } else {
         return v;
     }
 }
+
 // Splaying functions
 
 template <typename key_t, typename value_t>

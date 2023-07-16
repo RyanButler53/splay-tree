@@ -85,6 +85,7 @@ int main(){
     {
         st.remove(x);
     }
-    assert(st.size() == 0);    
+    assert(st.size() == 0);
+    cout << " All Tests Pass!" << endl;
     return 0;
 }

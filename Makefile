@@ -14,3 +14,4 @@ $(EXECS:.cpp=.o): $(EXECS) $(SRC)
 
 clean:
 	rm -rf $(TARGET) *.o
+	
